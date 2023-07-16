@@ -4,6 +4,8 @@ Backend for [quinque1337/adapt-app](https://github.com/quinque1337/adapt-app)
 Adapt is a side-project messenger that we were working on in college, but it has a lot of bugs and is not yet ready for production purposes :^
 
 You can help us make it production-ready by contributing to our code. We would be extremely grateful!
+## We are hosting it
+If you want to just use it on our instance, you can check [Adapt Web](https://blazer321.ru/web) and [Adapt API](https://blazer321.ru/) that we are hosting. Sadly, there is no documentation for API at this moment.
 ## How to run
 - Install [MongoDB Community Server](https://www.mongodb.com/try/download/community) (we use 4.4.21)
 - Clone this repo
