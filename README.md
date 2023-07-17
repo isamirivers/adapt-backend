@@ -9,7 +9,7 @@ If you want to just use it on our instance, you can check [Adapt Web](https://bl
 ## How to run
 - Install [MongoDB Community Server](https://www.mongodb.com/try/download/community) (we use 4.4.21)
 - Clone this repo
-- Run `pip install -r requirements.txt` (We will put it into requirements.txt someday)
+- Run `pip install -r requirements.txt`
 - Start MongoDB with the command `sudo mongod --fork --logpath /var/log/mongodb/mongod.log`
 - Start the server with `sudo gunicorn --workers=5 --threads=4 --daemon --bind 0.0.0.0:80 wsgi:app`
 - Use [quinque1337/adapt-app](https://github.com/quinque1337/adapt-app) to use messenger
